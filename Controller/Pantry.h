@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "Model.h"
 
 struct Ingredients *newIngredients(char * names, int stocks, char* groups, int baii){
     Ingredients *temp = (Ingredients *) malloc (sizeof (Ingredients));

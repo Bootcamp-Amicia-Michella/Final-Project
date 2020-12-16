@@ -19,8 +19,11 @@ struct Ingredients{
 
 struct Recipe{
 
+    char name[100];
     int walks; //Brp banyak steps yang ada
     char steps[30][255]; //Langkah2
-    struct Ingredients *needs[15]; //Butuh Ingredient ape?
+    struct Ingredients *needs[17]; //Butuh Ingredient ape?
 
-};
+} *CookBook[100];
+
+int CBpages = 0; //brp banyak halaman cookbook
